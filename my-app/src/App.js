@@ -24,7 +24,7 @@ function App() {
         <form onSubmit={handleSubmit}>
         <fieldset>
          <label>
-           <p>Please Enter your name</p>
+           <p>Please enter your name</p>
            <input name="name" data-test="name-input" />
          </label>
          <label>
@@ -32,7 +32,7 @@ function App() {
             <input name="age" data-test="age-input"/>
          </label>
        </fieldset>
-       <button data-test="submitBtn" type="submit">Submit</button>
+       <button style={{cursor: "pointer"}} data-test="submitBtn" type="submit">Submit</button>
        </form>
         <p>
           Edit <code>src/App.js</code> and save to reload.
