@@ -15,6 +15,7 @@ You may have to run `npx install playwright` too.
 First we need to launch the react application to do this run the below within the terminal
 
 `cd my-app`
+
 `npm run start`
 
 This should launch the app on 
