@@ -1,5 +1,5 @@
 # Playwright_VRT
-Visual regression testing framework set up using playwright and a dummy react app. This also snapshots the text and stores the file
+Visual regression testing framework set up using playwright and a dummy react app. Also will snapshot text
 
 # Prerequisites
 
@@ -11,20 +11,21 @@ Clone the project and run the below
 
 `npm install`
 
+`cd my-app`
+
+`npm install`
+
 You may have to run `npx install playwright` too.
 
 # How to run the visual tests
-
 
 First we need to launch the react application to do this run the below within the terminal
 
 `cd my-app`
 
-`npm install`
-
 `npm run start`
 
-This should launch the app on 
+This should then launch the app on 
 
 `http://localhost:3000/`
 
@@ -33,6 +34,6 @@ Once this is open another terminal and ensure you are at the root of the project
 `npx playwright test`
 
 If there is no snapshots to check against the tests will fail and capture a screenshot.
-If you need to update the screenshots you can run the following, this recommended the first time the repo is cloned
+If you need to update the screenshots you can run the following, this is recommended the first time the repo is cloned
 
 `npx playwright test --update-snapshots`
