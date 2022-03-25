@@ -20,6 +20,8 @@ First we need to launch the react application to do this run the below within th
 
 `cd my-app`
 
+`npm install`
+
 `npm run start`
 
 This should launch the app on 
