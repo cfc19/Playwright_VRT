@@ -31,4 +31,5 @@ jobs:
           cd my-app
           npm ci
           npm run build
+          serve -s build  
     - run: npm test
