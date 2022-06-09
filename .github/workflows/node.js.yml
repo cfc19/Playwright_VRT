@@ -30,6 +30,5 @@ jobs:
     - run: | 
           cd my-app
           npm ci
-    - start: 
           npm run start
     - run: npm test
