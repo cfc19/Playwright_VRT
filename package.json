@@ -2,7 +2,9 @@
   "name": "playwright_vrt",
   "version": "1.0.0",
   "description": "Visual regression testing in playwright",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cfc19/Playwright_VRT.git"
