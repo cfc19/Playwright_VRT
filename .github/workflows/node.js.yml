@@ -31,5 +31,6 @@ jobs:
           cd my-app
           npm ci
           npm run build
+          npm start & npx wait-on http://localhost:3000
     - run: npx playwright install --with-deps
     - run: npm test
