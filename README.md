@@ -37,3 +37,9 @@ If there is no snapshots to check against the tests will fail and capture a scre
 If you need to update the screenshots you can run the following, this is recommended the first time the repo is cloned
 
 `npx playwright test --update-snapshots`
+
+# How to update screenshots for Github actions
+
+You need to generate the screenshots on the docker image and then push them to master. Playwright docs talk you through how to do this in the below
+
+https://playwright.dev/docs/test-snapshots
