@@ -16,9 +16,9 @@
   },
   "homepage": "https://github.com/cfc19/Playwright_VRT#readme",
   "devDependencies": {
-    "@playwright/test": "^1.22.2"
+    "@playwright/test": "^1.23.2"
   },
   "dependencies": {
-    "playwright": "^1.22.2"
+    "playwright": "^1.23.2"
   }
 }
