@@ -1,6 +1,6 @@
 {
   "name": "playwright_vrt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Visual regression testing in playwright",
   "scripts": {
     "test": "npx playwright test"
